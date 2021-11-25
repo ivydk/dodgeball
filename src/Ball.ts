@@ -75,7 +75,7 @@ export default class Ball {
    * @param r the radius of the player
    * @returns `true` if the ball overlaps with the player
    */
-  public overlapsWith(x: number, y:number, r: number): boolean {
+  public overlapsWith(x: number, y: number, r: number): boolean {
     // adjust: Check if the ball collides with the player. It's game over
     // then
     const distX = x - this.positionX;
